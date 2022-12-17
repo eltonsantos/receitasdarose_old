@@ -9,12 +9,16 @@ export const Container = styled.aside`
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--black);
+
+    &:hover {
+      color: var(--primary);
+    }
 
     img {
       width: 100px;
       height: 100px;
       border-radius: 100%;
-      border: 5px solid var(--green-300);
 
       float: left;
       padding-top: 5px;

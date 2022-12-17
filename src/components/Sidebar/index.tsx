@@ -1,12 +1,18 @@
+import rose from "../../assets/rose.jpg";
+
 import * as S from "./styles";
 
 export function Sidebar() {
   return (
     <S.Container>
-      <div className="sidebar-header">
-        <img src="https://github.com/eltonsantos.png" alt="" />
-        <b>Elton Santos</b>
-      </div>
+      <a
+        href="https://instagram.com/its.rosiane"
+        target="_blank"
+        className="sidebar-header"
+      >
+        <img src={rose} alt="" />
+        <b>Rosiane Rosa</b>
+      </a>
 
       <div></div>
     </S.Container>

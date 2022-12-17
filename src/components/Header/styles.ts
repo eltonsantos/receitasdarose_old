@@ -4,7 +4,7 @@ export const Container = styled.div`
   background: var(--white);
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 3rem;
   padding: 1.25rem 0;
 
   a {

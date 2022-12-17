@@ -36,7 +36,7 @@ export const Container = styled.article`
       margin-bottom: 5px;
 
       a {
-        font-size: 18px;
+        font-size: 1.5rem;
         line-height: 22px;
         font-weight: 700;
         color: inherit;
