@@ -4,18 +4,26 @@ import { Menu } from "./components/Menu";
 import { Post } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
 
+import { GlobalStyle } from "./styles/global";
+
 export function App() {
   return (
     <div>
       <Header />
       <Menu />
-      <div>
+      <div className="wrapper">
         <main>
+          <Post />
+          <Post />
+          <Post />
+          <Post />
           <Post />
         </main>
         <Sidebar />
       </div>
       <Footer />
+
+      <GlobalStyle />
     </div>
   );
 }

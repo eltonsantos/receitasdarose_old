@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   :root {
   --white: #fff;
+  --border: #eaeaea;
+  
   --gray-100: #e1e1e6;
   --gray-300: #c4c4cc;
   --gray-400: #8d8d99;
@@ -15,6 +17,9 @@ export const GlobalStyle = createGlobalStyle`
   --green-500: #00875f;
 
   --red-500: #F75A68;
+
+  --primary: #f3938c;
+
   }
 
   :focus {
@@ -29,8 +34,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--gray-900);
-    color: var(--gray-300);
+    background: var(--white);
+    color: var(--gray-800);
     -webkit-font-smoothing: antialiased;
   }
 
@@ -38,5 +43,16 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 1rem;
+  }
+
+  .wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr 256px;
+    gap: 2rem;
+    align-items: flex-start;
   }
 `;
