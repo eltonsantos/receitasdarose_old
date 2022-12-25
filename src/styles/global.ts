@@ -45,17 +45,6 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
-  .wrapperHome {
-    max-width: 78.125rem;
-    margin: 2rem auto;
-    padding: 0 1rem;
-
-    display: grid;
-    grid-template-columns: 1fr 256px;
-    gap: 2rem;
-    align-items: flex-start;
-  }
-
   .wrapper {
     max-width: 78.125rem;
     margin: 2rem auto;

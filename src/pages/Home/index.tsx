@@ -1,12 +1,11 @@
 import { Post } from "../../components/Post";
-import { Sidebar } from "../../components/Sidebar";
 
 import * as S from "./styles";
 
 export function Home() {
   return (
     <S.Container>
-      <div className="wrapperHome">
+      <div className="wrapper">
         <main>
           <Post />
           <Post />
@@ -14,7 +13,6 @@ export function Home() {
           <Post />
           <Post />
         </main>
-        <Sidebar />
       </div>
     </S.Container>
   );

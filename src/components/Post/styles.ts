@@ -4,6 +4,13 @@ export const Container = styled.article`
   background: var(--white);
   border-radius: 8px;
   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  clear: both;
+
+  @media (max-width: 400px) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   a {
     float: left;
@@ -16,8 +23,13 @@ export const Container = styled.article`
 
   .post-info {
     display: block;
-    padding: 10px 0 0 308px;
     vertical-align: middle;
+
+    @media (min-width: 400px) {
+      padding: 10px 0 0 308px;
+      display: block;
+      vertical-align: middle;
+    }
 
     .post-category {
       font-family: "Roboto";
