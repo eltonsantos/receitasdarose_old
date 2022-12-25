@@ -6,7 +6,6 @@ export function Login() {
   return (
     <S.Container>
       <h1>Login</h1>
-
       <form className="form form-login">
         <div className="form-field">
           <label className="email" htmlFor="login-email">
