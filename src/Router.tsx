@@ -3,7 +3,6 @@ import { DefaultLayout } from "./layouts/DefaultLayout";
 import { About } from "./pages/About";
 import { Admin } from "./pages/Admin";
 import { Category } from "./pages/Category";
-
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 

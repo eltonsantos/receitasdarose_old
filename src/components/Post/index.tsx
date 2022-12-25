@@ -1,15 +1,16 @@
+import { NavLink } from "react-router-dom";
 import * as S from "./styles";
 
 export function Post() {
   return (
     <S.Container>
-      <a href="#">
+      <NavLink to="/details">
         <img src="https://source.unsplash.com/random" alt="" />
-      </a>
+      </NavLink>
       <div className="post-info">
         <div className="post-category">Doce</div>
         <div className="post-title">
-          <a href="#">Doces de Natal</a>
+          <NavLink to="/details">Doces de Natal</NavLink>
         </div>
         <div className="post-date">20/12/2022</div>
         <div className="post-description">
