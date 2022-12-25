@@ -40,6 +40,11 @@ export const Container = styled.div`
     padding: 0;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
+
+    :focus {
+      outline: transparent;
+      box-shadow: 0 0 0 2px var(--green-500);
+    }
   }
   .email:before {
     content: "\f007";

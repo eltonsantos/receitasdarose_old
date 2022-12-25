@@ -8,8 +8,10 @@ import * as S from "./styles";
 export function DefaultLayout() {
   return (
     <S.Container>
-      <Header />
-      <Menu />
+      <header>
+        <Header />
+        <Menu />
+      </header>
       <Outlet />
       <Footer />
     </S.Container>
