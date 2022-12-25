@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import * as S from "./styles";
 
 export function Menu() {
@@ -7,16 +8,16 @@ export function Menu() {
         <S.Menu>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#">Sobre mim</a>
+              <NavLink to="/about">Sobre mim</NavLink>
             </li>
             <li>
-              <a href="#">Categoria</a>
+              <NavLink to="/category">Categoria</NavLink>
             </li>
             <li>
-              <a href="#">Login</a>
+              <NavLink to="/login">Login</NavLink>
             </li>
           </ul>
         </S.Menu>

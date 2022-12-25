@@ -1,5 +1,9 @@
 import * as S from "./styles";
 
 export function Error() {
-  return <S.Container>Error</S.Container>;
+  return (
+    <S.Container>
+      <div className="wrapper">Error</div>
+    </S.Container>
+  );
 }

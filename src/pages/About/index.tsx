@@ -1,5 +1,9 @@
 import * as S from "./styles";
 
 export function About() {
-  return <S.Container>About</S.Container>;
+  return (
+    <S.Container>
+      <div className="wrapper">About</div>
+    </S.Container>
+  );
 }
