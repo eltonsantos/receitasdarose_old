@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   --red-500: #F75A68;
 
   --primary: #f3938c;
+  --secondary: #FFCBCB;
 
   }
 

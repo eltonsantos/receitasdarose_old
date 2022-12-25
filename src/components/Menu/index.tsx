@@ -19,6 +19,9 @@ export function Menu() {
             <li>
               <NavLink to="/login">Login</NavLink>
             </li>
+            <li>
+              <NavLink to="/admin">Admin</NavLink>
+            </li>
           </ul>
         </S.Menu>
         {/* <S.More>
