@@ -54,7 +54,9 @@ export const Container = styled.article`
         color: inherit;
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           color: var(--green-300);
         }
       }

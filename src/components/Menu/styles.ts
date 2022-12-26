@@ -35,7 +35,9 @@ export const Menu = styled.nav`
         text-decoration: none;
         color: var(--black);
 
-        &:hover {
+        &:hover,
+        &:active,
+        &:focus {
           color: var(--green-300);
         }
       }
