@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://receitasdarose.vercel.app" target="_blank">
+  <a href="https://receitasdarose.netlify.app/" target="_blank">
     Receitas da Rose
   </a>
 </h1>
@@ -63,10 +63,11 @@ A personal blog of cooking recipes developed for Rosiane Rosa.
 ###### Escreverei essa parte em português
 
 - [ ] Cobrir o sistema de testes! 👁‍🗨
+- [ ] Terminar o menu responsivo que aparecerá na lateral 🍔
 - [ ] Criar uma busca por nome das receitas e categorias 🔎
 - [ ] Alterar visual em dark/light mode 🌗
 - [ ] Criar paginação 🥖
-- [ ] E muito mais... ❤💪🏼
+- [ ] E muito mais... 💜💪🏼
 
 ---
 
