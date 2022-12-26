@@ -11,6 +11,8 @@ export const Container = styled.div`
     text-decoration: none;
     font-weight: bold;
     color: var(--primary);
+    font-family: "Pacifico";
+    font-size: 25px;
 
     &:hover {
       color: var(--primary);
