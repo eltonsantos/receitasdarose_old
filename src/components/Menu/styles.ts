@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   @media (max-width: 390px) {
     position: absolute;
-    top: 15px;
+    top: 5px;
     background: transparent;
     border-top: none;
     width: 100%;

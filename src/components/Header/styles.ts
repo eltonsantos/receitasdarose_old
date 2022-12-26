@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   font-size: 3rem;
-  padding: 1.25rem 0;
+  padding: 0.65rem 0;
 
   a {
     color: var(--gray-600);
