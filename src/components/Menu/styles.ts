@@ -8,6 +8,14 @@ export const Container = styled.div`
   height: 60px;
   border-bottom: 1px solid var(--border);
   border-top: 1px solid var(--border);
+
+  @media (max-width: 390px) {
+    position: absolute;
+    top: 10px;
+    background: transparent;
+    border-top: none;
+    width: 100%;
+  }
 `;
 
 export const Content = styled.div`
@@ -33,6 +41,10 @@ export const Content = styled.div`
 `;
 
 export const Menu = styled.nav`
+  @media (max-width: 390px) {
+    display: none;
+  }
+
   ul {
     list-style: none;
     margin-bottom: 0;
