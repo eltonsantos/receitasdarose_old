@@ -14,7 +14,22 @@ export const Content = styled.div`
   max-width: 70rem;
   padding: 0 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .menu-mobile {
+    color: var(--gray-800);
+    font-weight: 400;
+    /* @media (min-width: 400px) {
+      display: none;
+    } */
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--green-300);
+    }
+  }
 `;
 
 export const Menu = styled.nav`
@@ -33,7 +48,7 @@ export const Menu = styled.nav`
         line-height: 17px;
         font-weight: 400;
         text-decoration: none;
-        color: var(--black);
+        color: var(--gray-800);
 
         &:hover,
         &:active,
@@ -46,5 +61,15 @@ export const Menu = styled.nav`
 `;
 
 export const More = styled.div`
-  float: right;
+  a {
+    color: var(--gray-800);
+    font-weight: 400;
+    margin-left: 1.5rem;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--green-300);
+    }
+  }
 `;

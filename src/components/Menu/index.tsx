@@ -1,3 +1,4 @@
+import { List, MagnifyingGlass, Moon } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 import * as S from "./styles";
 
@@ -5,6 +6,9 @@ export function Menu() {
   return (
     <S.Container>
       <S.Content>
+        <a href="#" className="menu-mobile">
+          <List size={20} />
+        </a>
         <S.Menu>
           <ul>
             <li>
@@ -24,10 +28,14 @@ export function Menu() {
             </li>
           </ul>
         </S.Menu>
-        {/* <S.More>
-          <MagnifyingGlass size={20} weight="bold" />
-          <Moon size={20} weight="bold" />
-        </S.More> */}
+        <S.More>
+          <a href="#">
+            <MagnifyingGlass size={20} />
+          </a>
+          <a href="#">
+            <Moon size={20} />
+          </a>
+        </S.More>
       </S.Content>
     </S.Container>
   );
