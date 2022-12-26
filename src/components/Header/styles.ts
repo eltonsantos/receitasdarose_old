@@ -8,11 +8,12 @@ export const Container = styled.div`
   padding: 1.25rem 0;
 
   a {
-    color: var(--gray-500);
+    color: var(--gray-600);
     text-decoration: none;
     font-weight: bold;
     font-family: "Pacifico";
     font-size: 25px;
+    z-index: 9999;
 
     &:hover,
     &:active,
