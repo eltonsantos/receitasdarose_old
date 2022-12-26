@@ -20,7 +20,6 @@ export function Login() {
               type="email"
               className="form-input"
               placeholder="Email"
-              value=""
               required
             />
           </div>
@@ -33,7 +32,6 @@ export function Login() {
               type="password"
               className="form-input"
               placeholder="Password"
-              value=""
               required
             />
           </div>

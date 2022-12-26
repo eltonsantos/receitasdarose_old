@@ -40,7 +40,7 @@ export const Container = styled.div`
 
     :focus {
       outline: transparent;
-      box-shadow: 0 0 0 2px var(--green-500);
+      box-shadow: 0 0 0 2px var(--green-300);
     }
   }
   .email:before {
