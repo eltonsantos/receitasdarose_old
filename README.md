@@ -19,6 +19,7 @@
 This project was developed using the following technologies:
 
 - [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Firebase](https://firebase.google.com/)
 - [Styled Components](https://styled-components.com/)
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
@@ -26,6 +27,7 @@ This project was developed using the following technologies:
 - [React Hook Form](https://react-hook-form.com/)
 - [Phosphor Icons](https://phosphoricons.com/)
 - [Vite](https://vitejs.dev/)
+- [Date fns](https://date-fns.org/)
 - [Zod](https://zod.dev/)
 
 ## 🚀 Getting started
@@ -48,7 +50,7 @@ $ npm run dev
 
 ## 💻 Project
 
-Comming soon.
+A personal blog of cooking recipes developed for Rosiane Rosa.
 
 ## 🔖 Layout
 
