@@ -1,11 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  h1 {
+  .page-title {
     background-color: var(--secondary);
-    padding: 2rem;
-    font-size: 2.25rem;
-    color: var(--white);
-    padding-left: 21.5rem;
+
+    .content {
+      width: 1140px;
+      margin: 0 auto;
+      text-align: left;
+
+      h1 {
+        padding: 2rem;
+        font-size: 2.25rem;
+        color: var(--white);
+      }
+    }
   }
 `;

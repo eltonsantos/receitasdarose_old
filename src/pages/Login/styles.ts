@@ -16,9 +16,6 @@ export const Container = styled.div`
     margin: 0 auto;
   }
 
-  h1 {
-    margin-bottom: 1.5rem;
-  }
   img {
     height: 40px;
     width: 206px;
@@ -128,5 +125,21 @@ export const Container = styled.div`
   }
   .text--center {
     text-align: center;
+  }
+`;
+
+export const Content = styled.div`
+  background-color: var(--secondary);
+
+  .content {
+    width: 630px;
+    margin: 0 auto;
+    text-align: left;
+
+    h1 {
+      padding: 2rem;
+      font-size: 2.25rem;
+      color: var(--white);
+    }
   }
 `;

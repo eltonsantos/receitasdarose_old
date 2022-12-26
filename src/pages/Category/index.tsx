@@ -3,7 +3,11 @@ import * as S from "./styles";
 export function Category() {
   return (
     <S.Container>
-      <h1>Categorias</h1>
+      <div className="page-title">
+        <div className="content">
+          <h1>Categorias</h1>
+        </div>
+      </div>
       <div className="wrapper">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
