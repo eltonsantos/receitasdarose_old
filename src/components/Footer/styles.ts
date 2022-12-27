@@ -12,7 +12,7 @@ export const Container = styled.footer`
   }
 
   b {
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   span {

@@ -3,13 +3,13 @@ import * as S from "./styles";
 export function Footer() {
   return (
     <S.Container>
-      <b>&copy; Receitas da Rose</b> |
-      <span>
+      <b>&copy; Receitas da Rose</b> | {new Date().getFullYear()}
+      {/* <span>
         desenvolvido por
-        <a href="https://github.com/eltonsantos" target="_blank">
+        <a href="https://github.com/eltonsantos" target="_blank ">
           eltonsantos
         </a>
-      </span>
+      </span> */}
     </S.Container>
   );
 }
