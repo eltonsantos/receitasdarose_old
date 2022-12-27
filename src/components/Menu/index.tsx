@@ -7,7 +7,7 @@ import * as S from "./styles";
 
 export function Menu() {
   const [open, setOpen] = useState(false);
-  const node = useRef();
+  const node = useRef<HTMLDivElement>(null);
 
   const useOnClickOutside = ({ ref, handler }: any) => {
     useEffect(() => {
