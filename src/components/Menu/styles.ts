@@ -9,7 +9,7 @@ export const Container = styled.div`
   border-bottom: 1px solid var(--border);
   border-top: 1px solid var(--border);
 
-  @media (max-width: 390px) {
+  @media (max-width: 395px) {
     position: absolute;
     top: 5px;
     background: transparent;
@@ -42,7 +42,7 @@ export const Content = styled.div`
 `;
 
 export const Menu = styled.nav`
-  @media (max-width: 390px) {
+  @media (max-width: 395px) {
     display: none;
   }
 
