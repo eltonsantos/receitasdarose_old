@@ -7,6 +7,10 @@ export const Container = styled.footer`
   padding: 1.25rem 0;
   color: var(--white);
 
+  @media (max-width: 390px) {
+    font-size: 14px;
+  }
+
   b {
     margin-right: 20px;
   }

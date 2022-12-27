@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.article`
   background: var(--white);
   border-radius: 8px;
-  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   clear: both;
 
   @media (max-width: 400px) {
@@ -29,6 +29,10 @@ export const Container = styled.article`
       padding: 10px 0 0 308px;
       display: block;
       vertical-align: middle;
+    }
+
+    @media (max-width: 390px) {
+      clear: both;
     }
 
     .post-category {
