@@ -24,7 +24,6 @@ export const Menu = styled.nav<MenuProps>`
   }
 
   a {
-    font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
     font-weight: 300;
