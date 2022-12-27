@@ -24,9 +24,11 @@ export const Menu = styled.nav<MenuProps>`
   }
 
   a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
     padding: 2rem 0;
-    font-weight: 300;
     letter-spacing: 0.5rem;
     color: var(--gray-600);
     text-decoration: none;
@@ -40,6 +42,10 @@ export const Menu = styled.nav<MenuProps>`
 
     &:hover {
       color: var(--white);
+    }
+
+    span {
+      margin-right: 10px;
     }
   }
 `;
