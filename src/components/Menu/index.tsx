@@ -1,14 +1,37 @@
-import { List, MagnifyingGlass, Moon } from "phosphor-react";
+import { MagnifyingGlass, Moon } from "phosphor-react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { BurguerMenu } from "../BurguerMenu";
+import { SideBarMenu } from "../SideBarMenu";
 import * as S from "./styles";
 
 export function Menu() {
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+
+  const useOnClickOutside = ({ ref, handler }: any) => {
+    useEffect(() => {
+      const listener = (event: { target: any }): any => {
+        if (!ref.current || ref.current.contains(event.target)) {
+          return;
+        }
+        handler(event);
+      };
+      document.addEventListener("mousedown", listener);
+
+      return () => {
+        document.removeEventListener("mousedown", listener);
+      };
+    }, [ref, handler]);
+  };
+
   return (
     <S.Container>
       <S.Content>
-        <a href="#" className="menu-mobile">
-          <List size={20} />
-        </a>
+        <div ref={node}>
+          <BurguerMenu open={open} setOpen={setOpen} />
+          <SideBarMenu open={open} setOpen={setOpen} />
+        </div>
         <S.Menu>
           <ul>
             <li>

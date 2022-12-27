@@ -28,6 +28,7 @@ export const Content = styled.div`
   .menu-mobile {
     color: var(--gray-800);
     font-weight: 400;
+    cursor: pointer;
     /* @media (min-width: 400px) {
       display: none;
     } */
