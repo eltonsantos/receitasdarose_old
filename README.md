@@ -50,7 +50,7 @@ $ npm run dev
 
 ## 💻 Project
 
-A personal blog of cooking recipes developed for Rosiane Rosa 💜.
+A personal blog of cooking recipes developed for Rosiane Rosa 💓.
 
 ## 🔖 Layout
 
