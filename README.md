@@ -26,8 +26,8 @@ This project was developed using the following technologies:
 - [React Router DOM](https://reactrouter.com/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Phosphor Icons](https://phosphoricons.com/)
-- [Vite](https://vitejs.dev/)
 - [Date fns](https://date-fns.org/)
+- [Vite](https://vitejs.dev/)
 - [Zod](https://zod.dev/)
 
 ## 🚀 Getting started
@@ -50,7 +50,7 @@ $ npm run dev
 
 ## 💻 Project
 
-A personal blog of cooking recipes developed for Rosiane Rosa.
+A personal blog of cooking recipes developed for Rosiane Rosa 💜.
 
 ## 🔖 Layout
 
