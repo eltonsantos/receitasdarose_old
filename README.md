@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://receitasdarose.netlify.app/" target="_blank">
-    Receitas da Rose
+    Roselícia
   </a>
 </h1>
 
@@ -55,7 +55,7 @@ A personal blog of cooking recipes developed for Rosiane Rosa 💓
 ## 🔖 Layout
 
 <p align="center">
-  <img alt="Receitas da Rose" src=".github/receitasrose-layout.png" width="1120px">
+  <img alt="Roselícia" src=".github/receitasrose-layout.png" width="1120px">
 </p>
 
 ## 🐾 Next steps
