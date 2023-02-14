@@ -8,6 +8,7 @@ export function Detail() {
           <h1>Detalhe</h1>
         </div>
       </div>
+      <h1 className="text-center">As 5 receitas mais curtidas de 2022</h1>
       <div className="wrapper">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
