@@ -1,4 +1,4 @@
-import { MagnifyingGlass, Moon } from "phosphor-react";
+import { MagnifyingGlass } from "phosphor-react";
 import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { BurguerMenu } from "../BurguerMenu";
@@ -44,6 +44,9 @@ export function Menu() {
               <NavLink to="/category">Categoria</NavLink>
             </li>
             <li>
+              <NavLink to="/contact">Contato</NavLink>
+            </li>
+            <li>
               <NavLink to="/login">Login</NavLink>
             </li>
             <li>
@@ -55,9 +58,9 @@ export function Menu() {
           <a href="#">
             <MagnifyingGlass size={20} />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <Moon size={20} />
-          </a>
+          </a> */}
         </S.More>
       </S.Content>
     </S.Container>
